@@ -177,7 +177,7 @@ const questions = [
         type: 'checkbox',
         name: 'built with',
         message: 'Please select the technologies that your application was built with.',
-        choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
+        choices: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express.js'],
         default: 0,
         when: ({ contents }) => {
             if (contents.indexOf('Built With') > -1) {
@@ -248,7 +248,7 @@ const questions = [
         }
     }
 ];
-// array of prompts for adding screenshots
+// Array of prompts for adding screenshots
 const screenshotQues = [
     {
         type: 'input',
@@ -287,7 +287,7 @@ const screenshotQues = [
         default: false
     }
 ];
-// array of prompts for adding credits
+// Array of prompts for adding credits
 const creditQues = [
     {
         type: 'input',
@@ -322,7 +322,7 @@ const creditQues = [
         default: false
     }
 ]
-// recursive function for adding screenshots
+// Recursive function for adding screenshots
 addScreenshots = readmeData => {
     
     // initiates screenshot array
@@ -346,7 +346,7 @@ Add New Screenshot
         };
     });
 };
-// recursive function for adding credits
+// Recursive function for adding credits
 addCredits = readmeInfo => {
     
     // initiates array for credits
