@@ -7,7 +7,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Please provide a project title.  (Required)',
+        message: 'Please provide a project title.',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -20,7 +20,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please enter your GitHub username. (Required)',
+        message: 'Please enter your GitHub username.',
         validate: githubInput => {
             if (githubInput) {
                 return true;
@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'input',
         name: 'repo',
-        message: 'Please enter the name of your repo. (Required)',
+        message: 'Please enter the name of your repo.',
         validate: repoInput => {
             if (repoInput) {
                 return true;
@@ -45,7 +45,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of your application. (Required)',
+        message: 'Provide a description of your application. ',
         validate: descInput => {
             if (descInput) {
                 return true;
@@ -58,7 +58,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Please provide information for using your application. (Required)',
+        message: 'Please provide information for using your application. ',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -253,7 +253,7 @@ const screenshotQues = [
     {
         type: 'input',
         name: 'screenshotLink',
-        message: 'Please provide a link for your screenshot. (Required)',
+        message: 'Please provide a link for your screenshot. ',
         validate: screenshotLinkInput => {
             if (screenshotLinkInput) {
                 return true;
@@ -266,7 +266,7 @@ const screenshotQues = [
     {
         type: 'input',
         name: 'screenshotAlt',
-        message: 'Please provide alt text for your screenshot. (Required)',
+        message: 'Please provide alt text for your screenshot. ',
         validate: screenshotAltInput => {
             if (screenshotAltInput) {
                 return true;
@@ -278,7 +278,7 @@ const screenshotQues = [
     {
         type: 'input',
         name: 'screenshotDesc',
-        message: 'Please provide a description of your screenshot. (Optional)'
+        message: 'Please provide a description of your screenshot. '
     },
     {
         type: 'confirm',
@@ -292,7 +292,7 @@ const creditQues = [
     {
         type: 'input',
         name: 'creditName',
-        message: 'Please give your credit a name. (Required)',
+        message: 'Please give your credit a name. ',
         validate: creditName => {
             if (creditName) {
                 return true;
@@ -305,7 +305,7 @@ const creditQues = [
     {
         type: 'input',
         name: 'creditLink',
-        message: 'Please provide a link for the credit.  (Required)',
+        message: 'Please provide a link for the credit.  ',
         validate: creditLink => {
             if (creditLink) {
                 return true;
